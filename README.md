@@ -33,7 +33,7 @@
   $success: #2a9924;
   $danger: #ea2e41;
   $warning: #ffc907;
-$dark: #343a40;
+  $dark: #343a40;
 ```
 ---
 ```css
@@ -129,6 +129,34 @@ __You can use padding with p names__
       margin-left: 20px;
   }
 ```
+---
+---
+---
+## JavaScript Helpers
+---
+1. **$(selector)** - alternative to querySelector and All
+2. **$(selector).addClass()** - alternative to classList.add()
+3. **$(selector).removeClass()** - alternative to classList.remove()
+4. **$(selector).toggleClass()** - alternative to classList.toggle()
+5. **$(selector).contains()** - alternative to classList.contains()
+6. **$(selector).getAttr()** - alternative to Node.getAttribute()
+7. **$(selector).setAttr()** - alternative to Node.setAttribute(), but here 2nd arg is optional
+8. **$(selector).toggleAttr()** - toggle attribute also here 2nd arg is optional
+9. **$(selector).show()** - used for style.display = ''
+10. **$(selector).hide()** - used for style.display = 'none'
+11. **$(selector).toggle()** - used for toggle display
+12. **$(selector).on(eventName, callback)** - alternative to addEventListener
+13. **$(selector).off(eventName, callback)** - alternative to removeEventListener
+14. **$(selector).click(1 - callback, 2- without callback)** - alternative to 1 - addEventListener or 2 - click()
+15. **$(selector).fadeIn(duration, by default display block but you can change, callback optional)** - js animation
+16. **$(selector).fadeOut(duration, callback optional)** - js animation
+17. **$(selector).fadeToggle(duration, by default display block but you can change, callback optional)** - js animation
+18. **$(selector).html()** - if there is arg it used for change innerHTML else get innerHTML
+19. **$(selector).eq(index)** - alternative for querySelectorAll(selector)[0]
+20. **$(selector).index()** - current index of elem inside of parent
+21. **$(parent selector).find(child or children selector)** - used for finding >
+22. **$(selector).closest(selector)** - alternative to Node.closest()
+23. **$(selector).siblings()** - all elements inside of parent
 ---
 ---
 ---
